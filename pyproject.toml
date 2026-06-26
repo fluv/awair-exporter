@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awair-exporter"
+version = "1.0.0"
+description = "Prometheus exporter for Awair Element air quality monitors"
+requires-python = ">=3.12"
+license = { text = "MIT-0" }
+dependencies = []
